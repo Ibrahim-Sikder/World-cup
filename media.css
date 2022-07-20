@@ -1,4 +1,24 @@
 
+@media only screen and (max-width:500px){
+    .ocntainer{
+        width:100%;;
+        margin:0 auto;
+    }
+    .blogContent{
+        padding:0;
+    }
+    .SingleBlog2{
+        width:90% !important;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin:0 auto !important;
+     }
+ 
+
+
+}
+
 @media only screen and (max-width:767px){
     .container{
         width:100%;
@@ -6,29 +26,39 @@
     }
 
     .bannerSection{
-        display:block;
-        height:114vh;
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        height:135vh;
         text-align:center !important;
-        margin-bottom:30px;
+        margin-bottom:40px;
+        padding-top:10px;
+        
     }
     .bannerContent{
         width:70%;
        padding-top:40px;
        text-align:center;
+       margin:0 auto;
+       padding-right:50px;
     }
     .bannerContent h1{
        font-size:30px;
-        width:70%;
+        width:90%;
         margin:0 auto;
         line-height:1.5;
+        padding-bottom:15px;
 
 
       
     }
     .bannerContent p{
-       width:100%;
+       width:80%;
        padding:0;
        line-height:2;
+       margin:0 auto;
+       font-size:14px;
+        padding-bottom:15px;
     }
     .bannerPlayer{
         width:100%;
@@ -55,6 +85,8 @@
      .MainBlogSection{
         display:flex;
         flex-direction:column;
+        margin-bottom:30px;
+        
      }
      .linkBtn a{
         width:200px;
@@ -63,27 +95,74 @@
         margin-right:0px; 
         border:1px solid #ddd;
       }
+   
       .blogRight{
-       grid-template-columns:500px;
-       justify-self:center;
+       display:grid;
+       grid-template-columns:100%;
+       grid-gap:10px;
+        justify-self:center;
+        justify-content:center;
+    
        
-      }
+    }
       .singleBlog{
         width:100%;
+        margin:0 auto;
         border:1px solid #ddd;
+        text-align:left;
+        padding-bottom:20px;
        
+    }
+
+    
+    .singleBlog img{
+        max-width:100%;
+    
+    }
+    .singleBlog p{
+        width:70%;
+        padding-bottom:15px;
+        padding-top:10px;
+    }
+
+    .blogContent{
+        text-align:left;
+        padding-left:35px;
+        padding-right:15px;
+    }
+    .blogContent a{
+      margin-left:2px;
     }
       .footerMenu ul{
         flex-direction:column;   
     }
     .footerMenu ul li{
-        padding-bottom:15px;
+        padding-bottom:30px;
     }
     .footerMenu ul li a{
-       color:#ddd;
+       color:#fff;
     }
+  
     .footerSection{
+        width:100%;
+        margin:0 auto;
         padding:40px 0;
+    }
+
+    .footerIcon a{
+   font-size:12px;
+    }
+    .footerIcon{
+        margin-top:0; 
+     }
+     .SingleBlog2{
+       display:flex;
+       flex-direction:column;
+       align-items:center;
+       justify-content:center;
+        width:60%;
+       margin:0 auto;
+       padding:50px 0;
     }
 
 }
@@ -139,9 +218,7 @@
 
 }
 .singleBlog{
-    width:auto;
-    
-   
+    width:auto; 
 }
 .singleBlog img{
   max-width:100%;
@@ -180,6 +257,24 @@
 }
 .blogContent p{
     width:200px;
+}
+/*
+======================
+Website two media query 
+=======================
+*/
+.MainBlogSection{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+}
+.SingleBlog2{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
 }
 
 
