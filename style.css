@@ -1,0 +1,247 @@
+/*
+=====================
+Common Styling
+=====================
+*/
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    box-sizing:border-box;
+}
+.container{
+    width:1100px;
+    margin:0 auto;
+}
+/*
+=================
+Banner styling 
+=================
+*/
+
+.bannerSection{
+    background:#161616;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:70vh;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
+.bannerContent{
+    width:50%;
+    padding-left:60px;
+}
+.bannerContent h1{
+    font-size:45px;
+    font-weight:900;
+    width:60%;
+    margin-bottom:15px;
+    line-height:1.2;
+}
+.bannerContent p{
+    width:70%;
+    margin-bottom:15px;
+
+}
+.bannerContent a{
+    background:red;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 25px;
+    display:inline-block;
+    margin-top:10px;
+    text-transform:capitalize;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.bannerContent a i{
+    font-size:13px;
+    margin-left:5px;
+
+}
+.bannerPlayer{
+    width:50%;
+    text-align:left;
+}
+.bannerPlayer img{
+    max-width:100%;
+}
+/*
+===================
+Blog section Styling
+===================
+*/
+.MainBlogSection{
+   display:grid;
+   grid-template-columns:auto auto;
+}
+.BlogSections{
+    margin-top:50px;
+}
+.blogLeft{
+    background:#161616;
+    height:170px;
+    width:180px;
+    padding:20px 15px;
+   
+}
+.viewBtn{
+    display:none;
+}
+.blogLeft a{
+      text-decoration:none;
+      color:#222;
+      background:#fff;
+      display:flex;
+      flex-direction:column;
+      margin-bottom:5px;
+      text-align:center;
+      padding:8px 0;
+      border-radius:5px;
+      -webkit-border-radius:5px;
+      -moz-border-radius:5px;
+      -ms-border-radius:5px;
+      -o-border-radius:5px;
+      margin-bottom:18px;
+      text-transform:capitalize;
+      font-size:18px;
+      font-weight:600
+}
+.different{
+    background:red !important;
+    color:#fff !important;
+}
+
+.blogRight{
+    display:grid;
+    grid-template-columns:260px 260px 260px;
+    grid-gap:10px;
+    justify-self:end;
+    justify-content:end;
+
+}
+.singleBlog{
+    width:250px;
+    border:1px solid #ddd;
+   
+}
+.singleBlog img{
+    max-width:100%;
+
+}
+.blogContent{
+    padding-left:15px;
+    padding-right:15px;
+}
+.blogContent a{
+    text-decoration:none;
+    text-transform:capitalize;
+    color:#161616;
+    border:1px solid #111;
+    padding:3px 10px;
+    display:inline-block;
+    margin:10px;
+    font-size:14px;
+}
+.blogIcon{
+    display:flex;
+    
+}
+.SmalIcon{
+    padding-left:30px;
+}
+.smallIcon i{
+    margin-right:5px;
+}
+/*
+==================
+Footer section styling
+===================
+*/
+.footerSection{
+    background:#161616;
+    padding:80px 0;
+    color:#fff;
+    text-align:center;
+}
+.footerSection h2{
+    text-transform:uppercase;
+    font-weight:900;
+    margin-bottom:15px;
+}
+.footerSection hr{
+    width:70%;
+    margin:0 auto;
+    border: 0;
+    height: 1px;
+    background: #333;
+    margin-bottom:15px;
+}
+.footerMenu ul{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+.footerMenu ul li{
+    list-style:none;
+}
+.footerMenu ul li a{
+    margin-left:10px ;
+    margin-right:10px;
+    text-decoration:none;
+    color:#fff;
+    text-transform:capitalize;
+}
+
+/*
+===================
+Another Website 
+===================
+*/
+.country{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+.Winning{
+    margin-bottom:10px;
+}
+.country h3{
+    margin-right:8px;
+    margin-left:8px;
+    font-size:30px;
+}
+.singleBlog{
+    text-align:center;
+    
+}
+.SingleBlog2{
+    padding:40px 15px;
+    width:230px;
+}
+.blogContent2 h3{
+    margin:8px;
+}
+.BlogSections{
+    margin-bottom:80px;
+    margin-top:80px;
+}
+
+/*
+============================
+Media query for Tablet device
+============================
+*/
