@@ -129,7 +129,7 @@ Blog section Styling
       font-weight:600
 }
 .different{
-    background:#E3BEC6 !important;
+    background:#0072B2 !important;
     color:#fff !important;
 }
 
@@ -284,10 +284,3 @@ Footer section styling
     margin-bottom:80px;
     margin-top:80px;
 }
-
-
-/*
-============================
-Media query for Tablet device
-============================
-*/
